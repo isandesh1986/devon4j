@@ -3,6 +3,7 @@ toc::[]
 :idprefix:
 :idseparator: -
 
+Asciidoctor Version: {asciidoctor-version}
 There are many different views on what is summarized by the term _architecture_. First we introduce the xref:key-principles[key principles] and xref:architecture-principles[architecture principles] of devonfw. Then we go into details of the the xref:application-architecture[architecture of an application].
 
 == Key Principles

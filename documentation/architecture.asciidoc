@@ -77,7 +77,7 @@ image::images/T-Architecture.png["devonfw architecture blueprint",scaledwidth="8
 
 Please click on the architecture image to open it as SVG and click on the layers and cross-cutting topics to open the according documentation guide.
 
-We reflect this architecture in our code as described in our link:coding-conventions.asciidoc#packages[coding conventions] allowing a traceability of business components, use-cases, layers, etc. into the code and giving
+We reflect this architecture in our code as described in our link:coding-conventions.asciidoc_packages[coding conventions] allowing a traceability of business components, use-cases, layers, etc. into the code and giving
 developers a sound orientation within the project.
 
 Further, the architecture diagram shows the allowed dependencies illustrated by the dark green connectors.
@@ -88,7 +88,7 @@ The general dependencies allowed between business components are defined by the 
 In our reference architecture diagram we assume that the business component `A1` is allowed to depend
 on component `A2`. Therefore a use-case within the logic component part of `A1` is allowed to call a 
 use-case from `A2` via a dependency on the component API. The same applies for dialogs on the client layer.
-This is illustrated by the horizontal connectors. Please note that link:guide-jpa.asciidoc#entity[persistence entities] are part of the API of the data-access component part so only the logic component part of the same
+This is illustrated by the horizontal connectors. Please note that link:guide-jpa.asciidoc_entity[persistence entities] are part of the API of the data-access component part so only the logic component part of the same
 business component may depend on them.
 
 The technical architecture has to address non-functional requirements:
